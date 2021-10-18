@@ -44,7 +44,7 @@ sqlparse==0.4.2
 3) in the root directory , you will find manage.py file
 4) to create database table in the model , run python manage.py inspectdb > models.py
 5) move the models.py under api folder.
-6) run python manage.py to start the application
+6) run python manage.py runserver to start the application
 
 sample endpoints :
 http://127.0.0.1:8000/Stylight/NotifyShopsView/?shopId=2&month=2020-07-01
